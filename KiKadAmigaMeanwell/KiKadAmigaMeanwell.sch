@@ -32,11 +32,9 @@ F 3 "" H 7500 2200 50  0001 C CNN
 	1    7500 2200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7500 2200 7500 2250
 Connection ~ 7500 2700
 Wire Wire Line
-	7500 2700 9600 2700
+	7500 2700 8200 2700
 $Comp
 L power:GND #PWR0102
 U 1 1 5F3754A0
@@ -48,8 +46,6 @@ F 3 "" H 7650 3300 50  0001 C CNN
 	1    7650 3300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7650 3300 7650 3100
 Connection ~ 7650 2800
 $Comp
 L power:+12V #PWR0103
@@ -84,10 +80,7 @@ Connection ~ 8150 3000
 Wire Wire Line
 	8150 3000 9600 3000
 Wire Wire Line
-	7050 3100 7400 3100
-Connection ~ 7650 3100
-Wire Wire Line
-	7650 3100 7650 2800
+	7050 3100 7150 3100
 $Comp
 L Connector_Generic:Conn_01x02 5VFan1
 U 1 1 5F378DCB
@@ -100,16 +93,7 @@ F 3 "https://docs.rs-online.com/0036/0900766b816e81c4.pdf" H 9300 2250 50  0001 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7650 2800 9600 2800
-Wire Wire Line
-	9100 2250 7500 2250
-Connection ~ 7500 2250
-Wire Wire Line
-	7500 2250 7500 2700
-Wire Wire Line
-	9100 2350 7650 2350
-Wire Wire Line
-	7650 2350 7650 2800
+	7650 2800 8300 2800
 $Comp
 L Connector_Generic:Conn_01x02 12VFan1
 U 1 1 5F37C613
@@ -151,13 +135,6 @@ F 3 "~https://docs.rs-https://docs.rs-online.com/32fb/0900766b813c2e71.pdf" H 68
 	-1   0    0    1   
 $EndComp
 NoConn ~ 9350 3100
-Wire Wire Line
-	9100 3700 7400 3700
-Wire Wire Line
-	7400 3700 7400 3100
-Connection ~ 7400 3100
-Wire Wire Line
-	7400 3100 7650 3100
 Wire Wire Line
 	9350 3100 9600 3100
 $Comp
@@ -246,6 +223,63 @@ F 1 "GND" H 5505 1527 50  0000 C CNN
 F 2 "" H 5500 1700 50  0001 C CNN
 F 3 "" H 5500 1700 50  0001 C CNN
 	1    5500 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0109
+U 1 1 5F37A192
+P 7150 3400
+F 0 "#PWR0109" H 7150 3150 50  0001 C CNN
+F 1 "Earth" H 7150 3250 50  0001 C CNN
+F 2 "" H 7150 3400 50  0001 C CNN
+F 3 "~" H 7150 3400 50  0001 C CNN
+	1    7150 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 3100 7150 3400
+Wire Wire Line
+	7650 2800 7650 3300
+Wire Wire Line
+	9100 3700 8300 3700
+Wire Wire Line
+	8300 3700 8300 2800
+Connection ~ 8300 2800
+Wire Wire Line
+	8300 2800 9600 2800
+Wire Wire Line
+	7500 2200 7500 2700
+Wire Wire Line
+	9100 2350 8300 2350
+Wire Wire Line
+	8300 2350 8300 2800
+Wire Wire Line
+	9100 2250 8200 2250
+Wire Wire Line
+	8200 2250 8200 2700
+Connection ~ 8200 2700
+Wire Wire Line
+	8200 2700 9600 2700
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 5F37C74D
+P 5050 1700
+F 0 "#FLG0105" H 5050 1775 50  0001 C CNN
+F 1 "PWR_FLAG" H 5050 1873 50  0000 C CNN
+F 2 "" H 5050 1700 50  0001 C CNN
+F 3 "~" H 5050 1700 50  0001 C CNN
+	1    5050 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0110
+U 1 1 5F37CE96
+P 5050 1700
+F 0 "#PWR0110" H 5050 1450 50  0001 C CNN
+F 1 "Earth" H 5050 1550 50  0001 C CNN
+F 2 "" H 5050 1700 50  0001 C CNN
+F 3 "~" H 5050 1700 50  0001 C CNN
+	1    5050 1700
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
