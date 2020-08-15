@@ -282,4 +282,25 @@ F 3 "~" H 5050 1700 50  0001 C CNN
 	1    5050 1700
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x02 5VFan2
+U 1 1 5F37AF23
+P 9300 1950
+F 0 "5VFan2" H 9380 1942 50  0000 L CNN
+F 1 "Conn_01x02" H 9380 1851 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 9300 1950 50  0001 C CNN
+F 3 "https://docs.rs-online.com/0036/0900766b816e81c4.pdf" H 9300 1950 50  0001 C CNN
+	1    9300 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 2050 8300 2050
+Wire Wire Line
+	8300 2050 8300 2350
+Connection ~ 8300 2350
+Wire Wire Line
+	9100 1950 8200 1950
+Wire Wire Line
+	8200 1950 8200 2250
+Connection ~ 8200 2250
 $EndSCHEMATC
