@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 38)
+    (drawings 41)
     (tracks 47)
     (zones 0)
     (modules 11)
@@ -616,6 +616,15 @@
     (pad 1 np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask))
   )
 
+  (gr_text "+12V Gnd" (at 78.1 46.8) (layer F.SilkS) (tstamp 5F37B774)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "+5V Gnd" (at 157.4 165.9) (layer F.SilkS) (tstamp 5F37B772)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "+5V Gnd" (at 142.3 50.7) (layer F.SilkS) (tstamp 5F37B76B)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_text COM (at 119.5 156.6 90) (layer F.SilkS) (tstamp 5F37B3CE)
     (effects (font (size 1 0.8) (thickness 0.15)))
   )
