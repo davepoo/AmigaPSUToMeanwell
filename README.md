@@ -9,10 +9,10 @@ Its possible that this design also works in the A1200 PSU but i don't have one t
 ![Picture of front of PCB](https://github.com/davepoo/AmigaPSUToMeanwell/blob/master/KiKadAmigaMeanwell/Renders/FrontBackV101.jpg)
 
 # Parts
-Molex, KK 254, 6410, 2 Way, 1 Row, Straight PCB Header - https://uk.rs-online.com/web/p/pcb-headers/4838461/
-Molex, KK 254, 6410, 5 Way, 1 Row, Straight PCB Header - https://uk.rs-online.com/web/p/pcb-headers/1707104/
+* Molex, KK 254, 6410, 2 Way, 1 Row, Straight PCB Header - https://uk.rs-online.com/web/p/pcb-headers/4838461/
+* Molex, KK 254, 6410, 5 Way, 1 Row, Straight PCB Header - https://uk.rs-online.com/web/p/pcb-headers/1707104/
 
 # YouTube
-https://youtu.be/RRZ41WjXUbk - Meanwell PSU To Amiga Adpator PCB v1.01 Changes
-https://youtu.be/qDFmNK3edf4 - Meanwell PSU To Amiga Adpator PCB Design in KiCad
+* Meanwell PSU To Amiga Adpator PCB v1.01 Changes - https://youtu.be/RRZ41WjXUbk
+* Meanwell PSU To Amiga Adpator PCB Design in KiCad - https://youtu.be/qDFmNK3edf4
 
