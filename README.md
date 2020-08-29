@@ -37,10 +37,17 @@ PSU Part numbers:
 * 321503-05
 
 # Parts
+The PCB was designed for these connecters, by any suitable 2.54mm pitch connectors will do the job.
+
 * Molex, KK 254, 6410, 2 Way, 1 Row, Straight PCB Header - https://uk.rs-online.com/web/p/pcb-headers/4838461/
 * Molex, KK 254, 6410, 5 Way, 1 Row, Straight PCB Header - https://uk.rs-online.com/web/p/pcb-headers/1707104/
 
 # YouTube
 * Meanwell PSU To Amiga Adpator PCB v1.01 Changes - https://youtu.be/RRZ41WjXUbk
 * Meanwell PSU To Amiga Adpator PCB Design in KiCad - https://youtu.be/qDFmNK3edf4
+
+# PCBWay 
+The v1.01 board is shared on PCBWay where i got the prototypes manufactured 
+
+https://www.pcbway.com/project/shareproject/A600_PSU_to_Meanwell_RT50_B_Adaptor_board.html
 
