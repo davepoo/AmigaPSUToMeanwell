@@ -43,8 +43,9 @@ The PCB was designed for these connecters, by any suitable 2.54mm pitch connecto
 * Molex, KK 254, 6410, 5 Way, 1 Row, Straight PCB Header - https://uk.rs-online.com/web/p/pcb-headers/1707104/
 
 # YouTube
-* Meanwell PSU To Amiga Adpator PCB v1.01 Changes - https://youtu.be/RRZ41WjXUbk
-* Meanwell PSU To Amiga Adpator PCB Design in KiCad - https://youtu.be/qDFmNK3edf4
+* v1.01 Assembly - https://youtu.be/UummiZiRQis
+* v1.01 Changes - https://youtu.be/RRZ41WjXUbk
+* Design in KiCad - https://youtu.be/qDFmNK3edf4
 
 # PCBWay 
 The v1.01 board is shared on PCBWay where i got the prototypes manufactured 
